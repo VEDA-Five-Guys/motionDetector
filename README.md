@@ -11,7 +11,7 @@ In the directory, set up the virtual environment and install required libraries.
 cd motionDetector
 python3 -m venv venv
 source /venv/bin/activate
-pip install mediapipe opencv-python numpy picamera2
+pip install -r requirements.txt
 ```
 Now, build the program with the following commands.
 ```bash
