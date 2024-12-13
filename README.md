@@ -1,5 +1,12 @@
 # motionDetector
 
+## Prequisite
+you need to install some libraies with the following commands below.  
+```
+sudo apt-get update
+sudo apt-get install g++ cmake python3-dev libboost-all-dev libssl-dev libcamera-dev
+```
+
 ## Instruction
 On Raspberry Pi, you need to set a python virtual environment.
 Firstly, clone this repository.
@@ -21,12 +28,7 @@ cmake ..
 make
 ```
 Then you can see the executable file named 'motion_detector'.  
-Before execute the file, you need to install some libraies with the following commands below.  
-```
-sudo apt-get update
-sudo apt-get install g++ cmake python3-dev libboost-all-dev libssl-dev
-```
-Now, you can execute the file with the following command.
+Now, you can execute the program with the following command.
 ```bash
 ./motion_detector
 ```
