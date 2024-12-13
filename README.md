@@ -25,3 +25,5 @@ Then you can see the executable file named 'motion_detector'. You can execute th
 ./motion_detector
 ```
 Note that you need to run this program on virtual environment.
+
+https://github.com/user-attachments/assets/1edfae3a-0eff-4e47-90e9-2416ec860bdc
