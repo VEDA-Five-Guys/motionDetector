@@ -13,14 +13,20 @@ python3 -m venv --system-site-packages venv
 source venv/bin/activate
 pip install opencv-python mediapipe numpy picamera2
 ```
-Now, build the program with the following commands.
+Build the program with the following commands.
 ```bash
 mkdir build
 cd build
 cmake ..
 make
 ```
-Then you can see the executable file named 'motion_detector'. You can execute the file with the following command.
+Then you can see the executable file named 'motion_detector'.  
+Before execute the file, you need to install some libraies with the following commands below.  
+```
+sudo apt-get update
+sudo apt-get install g++ cmake python3-dev libboost-all-dev libssl-dev
+```
+Now, you can execute the file with the following command.
 ```bash
 ./motion_detector
 ```
