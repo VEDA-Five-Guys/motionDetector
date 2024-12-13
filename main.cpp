@@ -16,7 +16,7 @@ int main() {
 
 	std::thread websocket_thread(&WebSocketClient::run, &websocket_client);
 	
-	python_module.run_script("motion_detector");
+	python_module.run_script("motion_detection");
 	
 	websocket_thread.join();
 

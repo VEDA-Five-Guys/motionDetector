@@ -50,7 +50,7 @@ void PythonModule::initialize() {
 
 void PythonModule::run_script(const std::string& script_name) {
 	PyRun_SimpleString("import sys");
-	PyRun_SimpleString("sys.path.append('.')");
+	PyRun_SimpleString("sys.path.append('../python')");
 	std::string import_command = "import " + script_name;
 	PyRun_SimpleString(import_command.c_str());
 }
