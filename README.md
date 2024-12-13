@@ -10,7 +10,7 @@ In the directory, set up the virtual environment and install required libraries.
 ```bash
 cd motionDetector
 python3 -m venv venv
-source /venv/bin/activate
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 Now, build the program with the following commands.
