@@ -9,7 +9,7 @@ git clone https://github.com/VEDA-Five-Guys/motionDetector.git
 In the directory, set up the virtual environment and install required libraries.
 ```bash
 cd motionDetector
-python3 -m venv venv
+python3 -m venv --system-site-packages venv
 source venv/bin/activate
 pip install opencv-python mediapipe numpy picamera2
 ```
